@@ -1,0 +1,3255 @@
+TS 1481032595.001250704 2016-12-06 21:56:35  21:56:34 up 34 days,  3:10,  5 users,  load average: 0.00, 0.01, 0.05
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:56:35 7f9efa61e700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 34 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85009 srv_idle
+srv_master_thread log flush and writes: 90996
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2281
+OS WAIT ARRAY INFO: signal count 2282
+Mutex spin waits 6855, rounds 48153, OS waits 1453
+RW-shared spins 537, rounds 16200, OS waits 540
+RW-excl spins 24, rounds 8681, OS waits 286
+Spin rounds per wait: 7.02 mutex, 30.17 RW-shared, 361.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2604877
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6659, OS thread handle 0x7f9efa61e700, query id 2283953 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2604876, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2283948 192.168.1.5 root cleaning up
+---TRANSACTION 2604873, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2283946 192.168.1.5 root cleaning up
+---TRANSACTION 2604872, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2283945 192.168.1.5 root cleaning up
+---TRANSACTION 2604875, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2283949 192.168.1.5 root cleaning up
+---TRANSACTION 2604874, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2283947 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157648 OS file writes, 1143163 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 0.74 writes/s, 0.74 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+610.13 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339450360
+Log flushed up to   339450340
+Pages flushed up to 339450290
+Last checkpoint at  339450290
+0 pending log writes, 0 pending chkp writes
+1138312 log i/o's done, 0.44 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16848
+0.00 reads/s, 0.00 creates/s, 0.15 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[4]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1222435
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 626.45 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032600.001657656 2016-12-06 21:56:40  21:56:39 up 34 days,  3:10,  5 users,  load average: 0.00, 0.01, 0.05
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:56:40 7f9efa59c700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85014 srv_idle
+srv_master_thread log flush and writes: 91001
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2291
+OS WAIT ARRAY INFO: signal count 2289
+Mutex spin waits 11122, rounds 50648, OS waits 1457
+RW-shared spins 542, rounds 16350, OS waits 545
+RW-excl spins 24, rounds 8711, OS waits 287
+Spin rounds per wait: 4.55 mutex, 30.17 RW-shared, 362.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2625824
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6660, OS thread handle 0x7f9efa59c700, query id 2304904 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2625823, not started committing
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2304903 192.168.1.5 root statistics
+select * from student where student_id=1
+---TRANSACTION 2625820, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2304899 192.168.1.5 root cleaning up
+---TRANSACTION 2625813, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2304892 192.168.1.5 root cleaning up
+---TRANSACTION 2625821, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2304900 192.168.1.5 root cleaning up
+---TRANSACTION 2625822, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2304902 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157673 OS file writes, 1143188 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4105.98 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339451212
+Log flushed up to   339451202
+Pages flushed up to 339451152
+Last checkpoint at  339451152
+0 pending log writes, 0 pending chkp writes
+1138327 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16853
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[9]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1243383
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4188.76 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032605.001310952 2016-12-06 21:56:45  21:56:44 up 34 days,  3:10,  5 users,  load average: 0.00, 0.01, 0.05
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:56:45 7f9ef85d6700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85018 srv_idle
+srv_master_thread log flush and writes: 91005
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2295
+OS WAIT ARRAY INFO: signal count 2293
+Mutex spin waits 15260, rounds 52926, OS waits 1457
+RW-shared spins 546, rounds 16470, OS waits 549
+RW-excl spins 24, rounds 8711, OS waits 287
+Spin rounds per wait: 3.47 mutex, 30.16 RW-shared, 362.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2646909
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6664, OS thread handle 0x7f9ef85d6700, query id 2326000 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2646908, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2325998 192.168.1.5 root cleaning up
+---TRANSACTION 2646907, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2325995 192.168.1.5 root cleaning up
+---TRANSACTION 2646905, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2325993 192.168.1.5 root cleaning up
+---TRANSACTION 2646904, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2325992 192.168.1.5 root cleaning up
+---TRANSACTION 2646906, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2325994 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157696 OS file writes, 1143211 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 4.60 writes/s, 4.60 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4134.97 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339452064
+Log flushed up to   339452014
+Pages flushed up to 339452014
+Last checkpoint at  339451838
+0 pending log writes, 0 pending chkp writes
+1138340 log i/o's done, 2.60 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16858
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[14]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1264467
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4215.96 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032610.001515157 2016-12-06 21:56:50  21:56:49 up 34 days,  3:10,  5 users,  load average: 0.40, 0.10, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:56:50 7f9efa59c700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85023 srv_idle
+srv_master_thread log flush and writes: 91010
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2302
+OS WAIT ARRAY INFO: signal count 2299
+Mutex spin waits 19312, rounds 55352, OS waits 1459
+RW-shared spins 551, rounds 16620, OS waits 554
+RW-excl spins 24, rounds 8711, OS waits 287
+Spin rounds per wait: 2.87 mutex, 30.16 RW-shared, 362.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2668174
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6666, OS thread handle 0x7f9efa59c700, query id 2347277 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2668171, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2347273 192.168.1.5 root cleaning up
+---TRANSACTION 2668172, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2347274 192.168.1.5 root cleaning up
+---TRANSACTION 2668170, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2347271 192.168.1.5 root cleaning up
+---TRANSACTION 2668173, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2347275 192.168.1.5 root cleaning up
+---TRANSACTION 2668169, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2347272 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157721 OS file writes, 1143236 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4176.56 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339452910
+Log flushed up to   339452870
+Pages flushed up to 339452870
+Last checkpoint at  339452700
+0 pending log writes, 0 pending chkp writes
+1138355 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16863
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[19]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1285732
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4252.15 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032615.001444387 2016-12-06 21:56:55  21:56:54 up 34 days,  3:10,  5 users,  load average: 0.37, 0.10, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:56:55 7f9efa61e700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85028 srv_idle
+srv_master_thread log flush and writes: 91015
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2315
+OS WAIT ARRAY INFO: signal count 2309
+Mutex spin waits 23700, rounds 58021, OS waits 1464
+RW-shared spins 556, rounds 16770, OS waits 559
+RW-excl spins 24, rounds 8771, OS waits 289
+Spin rounds per wait: 2.45 mutex, 30.16 RW-shared, 365.46 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2689126
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6670, OS thread handle 0x7f9efa61e700, query id 2368242 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2689123, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2368238 192.168.1.5 root cleaning up
+---TRANSACTION 2689121, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2368236 192.168.1.5 root cleaning up
+---TRANSACTION 2689125, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2368239 192.168.1.5 root cleaning up
+---TRANSACTION 2689124, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2368237 192.168.1.5 root cleaning up
+---TRANSACTION 2689122, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2368235 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157746 OS file writes, 1143261 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4108.78 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339453762
+Log flushed up to   339453732
+Pages flushed up to 339453732
+Last checkpoint at  339453562
+0 pending log writes, 0 pending chkp writes
+1138370 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16868
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[24]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1306684
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4189.56 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032620.001719643 2016-12-06 21:57:00  21:56:59 up 34 days,  3:10,  5 users,  load average: 0.34, 0.09, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:00 7f9ef85d6700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85033 srv_idle
+srv_master_thread log flush and writes: 91020
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2329
+OS WAIT ARRAY INFO: signal count 2318
+Mutex spin waits 28040, rounds 60681, OS waits 1471
+RW-shared spins 561, rounds 16920, OS waits 564
+RW-excl spins 24, rounds 8831, OS waits 291
+Spin rounds per wait: 2.16 mutex, 30.16 RW-shared, 367.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2710032
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6673, OS thread handle 0x7f9ef85d6700, query id 2389157 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2710028, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2389151 192.168.1.5 root cleaning up
+---TRANSACTION 2710026, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2389149 192.168.1.5 root cleaning up
+---TRANSACTION 2710031, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2389155 192.168.1.5 root cleaning up
+---TRANSACTION 2710029, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2389152 192.168.1.5 root cleaning up
+---TRANSACTION 2710030, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2389153 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157771 OS file writes, 1143286 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4106.38 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339454614
+Log flushed up to   339454584
+Pages flushed up to 339454584
+Last checkpoint at  339454408
+0 pending log writes, 0 pending chkp writes
+1138385 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16873
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[29]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1327590
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4180.36 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032625.002381660 2016-12-06 21:57:05  21:57:04 up 34 days,  3:10,  5 users,  load average: 0.31, 0.09, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:05 7f9efa59c700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85038 srv_idle
+srv_master_thread log flush and writes: 91025
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2344
+OS WAIT ARRAY INFO: signal count 2327
+Mutex spin waits 32579, rounds 63551, OS waits 1479
+RW-shared spins 566, rounds 17070, OS waits 569
+RW-excl spins 24, rounds 8891, OS waits 293
+Spin rounds per wait: 1.95 mutex, 30.16 RW-shared, 370.46 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2731047
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6675, OS thread handle 0x7f9efa59c700, query id 2410178 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2731044, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2410173 192.168.1.5 root cleaning up
+---TRANSACTION 2731043, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2410172 192.168.1.5 root cleaning up
+---TRANSACTION 2731042, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2410171 192.168.1.5 root cleaning up
+---TRANSACTION 2731045, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2410174 192.168.1.5 root cleaning up
+---TRANSACTION 2731046, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2410175 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157796 OS file writes, 1143311 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4116.58 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339455450
+Log flushed up to   339455440
+Pages flushed up to 339455440
+Last checkpoint at  339455270
+0 pending log writes, 0 pending chkp writes
+1138400 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16878
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[34]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1348605
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4202.16 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032630.001944172 2016-12-06 21:57:10  21:57:09 up 34 days,  3:11,  5 users,  load average: 0.29, 0.09, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:10 7f9efa61e700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85043 srv_idle
+srv_master_thread log flush and writes: 91030
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2352
+OS WAIT ARRAY INFO: signal count 2334
+Mutex spin waits 37281, rounds 66202, OS waits 1481
+RW-shared spins 571, rounds 17220, OS waits 574
+RW-excl spins 24, rounds 8921, OS waits 294
+Spin rounds per wait: 1.78 mutex, 30.16 RW-shared, 371.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2751783
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6678, OS thread handle 0x7f9efa61e700, query id 2430922 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2751781, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2430919 192.168.1.5 root cleaning up
+---TRANSACTION 2751773, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2430912 192.168.1.5 root cleaning up
+---TRANSACTION 2751772, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2430910 192.168.1.5 root cleaning up
+---TRANSACTION 2751782, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2430920 192.168.1.5 root cleaning up
+---TRANSACTION 2751780, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2430918 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 1
+2790 OS file reads, 1157820 OS file writes, 1143334 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 4.80 writes/s, 4.60 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4055.19 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339456292
+Log flushed up to   339456292
+Pages flushed up to 339456122
+Last checkpoint at  339456122
+0 pending log writes, 0 pending chkp writes
+1138415 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 1, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16882
+0.00 reads/s, 0.00 creates/s, 0.80 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[39]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1369341
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4146.37 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032635.002380386 2016-12-06 21:57:15  21:57:14 up 34 days,  3:11,  5 users,  load average: 0.27, 0.09, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:15 7f9ef85d6700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85048 srv_idle
+srv_master_thread log flush and writes: 91035
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2362
+OS WAIT ARRAY INFO: signal count 2341
+Mutex spin waits 41794, rounds 68846, OS waits 1485
+RW-shared spins 576, rounds 17370, OS waits 579
+RW-excl spins 24, rounds 8951, OS waits 295
+Spin rounds per wait: 1.65 mutex, 30.16 RW-shared, 372.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2772824
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6683, OS thread handle 0x7f9ef85d6700, query id 2451975 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2772821, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2451968 192.168.1.5 root cleaning up
+---TRANSACTION 2772819, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2451966 192.168.1.5 root cleaning up
+---TRANSACTION 2772822, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2451969 192.168.1.5 root cleaning up
+---TRANSACTION 2772818, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2451965 192.168.1.5 root cleaning up
+---TRANSACTION 2772823, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2451970 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157843 OS file writes, 1143358 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 4.60 writes/s, 4.80 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4119.38 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339457144
+Log flushed up to   339457044
+Pages flushed up to 339456968
+Last checkpoint at  339456968
+0 pending log writes, 0 pending chkp writes
+1138429 log i/o's done, 2.80 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16887
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[43]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1390382
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4207.36 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032640.003442035 2016-12-06 21:57:20  21:57:20 up 34 days,  3:11,  5 users,  load average: 0.24, 0.09, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:20 7f9ef8554700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85053 srv_idle
+srv_master_thread log flush and writes: 91040
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2372
+OS WAIT ARRAY INFO: signal count 2348
+Mutex spin waits 45956, rounds 71346, OS waits 1489
+RW-shared spins 581, rounds 17520, OS waits 584
+RW-excl spins 24, rounds 8981, OS waits 296
+Spin rounds per wait: 1.55 mutex, 30.15 RW-shared, 374.21 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2793880
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6688, OS thread handle 0x7f9ef8554700, query id 2473054 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2793860, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2473028 192.168.1.5 root cleaning up
+---TRANSACTION 2793863, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2473031 192.168.1.5 root cleaning up
+---TRANSACTION 2793879, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2473051 192.168.1.5 root cleaning up
+---TRANSACTION 2793859, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2473027 192.168.1.5 root cleaning up
+---TRANSACTION 2793878, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2473050 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157868 OS file writes, 1143383 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4132.97 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339457980
+Log flushed up to   339457890
+Pages flushed up to 339457840
+Last checkpoint at  339457840
+0 pending log writes, 0 pending chkp writes
+1138444 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16892
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[48]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1411438
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4210.36 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032645.002055343 2016-12-06 21:57:25  21:57:24 up 34 days,  3:11,  5 users,  load average: 0.22, 0.09, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:25 7f9efa59c700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85058 srv_idle
+srv_master_thread log flush and writes: 91045
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2387
+OS WAIT ARRAY INFO: signal count 2357
+Mutex spin waits 50023, rounds 73805, OS waits 1497
+RW-shared spins 586, rounds 17670, OS waits 589
+RW-excl spins 24, rounds 9041, OS waits 298
+Spin rounds per wait: 1.48 mutex, 30.15 RW-shared, 376.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2814534
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6689, OS thread handle 0x7f9efa59c700, query id 2493712 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2814529, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2493706 192.168.1.5 root cleaning up
+---TRANSACTION 2814533, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2493710 192.168.1.5 root cleaning up
+---TRANSACTION 2814532, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2493709 192.168.1.5 root cleaning up
+---TRANSACTION 2814531, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2493708 192.168.1.5 root cleaning up
+---TRANSACTION 2814528, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2493705 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157893 OS file writes, 1143408 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4044.39 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339458822
+Log flushed up to   339458732
+Pages flushed up to 339458692
+Last checkpoint at  339458692
+0 pending log writes, 0 pending chkp writes
+1138459 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16897
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1432092
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4129.97 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032650.001880373 2016-12-06 21:57:30  21:57:29 up 34 days,  3:11,  5 users,  load average: 0.21, 0.09, 0.07
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:30 7f9ef8554700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85063 srv_idle
+srv_master_thread log flush and writes: 91050
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2392
+OS WAIT ARRAY INFO: signal count 2362
+Mutex spin waits 54289, rounds 76199, OS waits 1497
+RW-shared spins 591, rounds 17820, OS waits 594
+RW-excl spins 24, rounds 9041, OS waits 298
+Spin rounds per wait: 1.40 mutex, 30.15 RW-shared, 376.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2835566
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6693, OS thread handle 0x7f9ef8554700, query id 2514757 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2835563, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2514751 192.168.1.5 root cleaning up
+---TRANSACTION 2835564, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2514752 192.168.1.5 root cleaning up
+---TRANSACTION 2835560, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2514748 192.168.1.5 root cleaning up
+---TRANSACTION 2835562, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2514750 192.168.1.5 root cleaning up
+---TRANSACTION 2835565, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2514754 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157918 OS file writes, 1143433 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4133.17 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339459674
+Log flushed up to   339459578
+Pages flushed up to 339459528
+Last checkpoint at  339459528
+0 pending log writes, 0 pending chkp writes
+1138474 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16902
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1453124
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4205.56 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032655.001345135 2016-12-06 21:57:35  21:57:34 up 34 days,  3:11,  5 users,  load average: 0.43, 0.13, 0.08
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:35 7f9ef8450700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85068 srv_idle
+srv_master_thread log flush and writes: 91055
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2397
+OS WAIT ARRAY INFO: signal count 2367
+Mutex spin waits 58470, rounds 78597, OS waits 1497
+RW-shared spins 596, rounds 17970, OS waits 599
+RW-excl spins 24, rounds 9041, OS waits 298
+Spin rounds per wait: 1.34 mutex, 30.15 RW-shared, 376.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2854558
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6698, OS thread handle 0x7f9ef8450700, query id 2533768 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2854557, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2533764 192.168.1.5 root cleaning up
+---TRANSACTION 2854555, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2533762 192.168.1.5 root cleaning up
+---TRANSACTION 2854551, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2533757 192.168.1.5 root cleaning up
+---TRANSACTION 2854556, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2533763 192.168.1.5 root cleaning up
+---TRANSACTION 2854552, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2533759 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157943 OS file writes, 1143458 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+3715.46 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339460430
+Log flushed up to   339460410
+Pages flushed up to 339460380
+Last checkpoint at  339460380
+0 pending log writes, 0 pending chkp writes
+1138489 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16907
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1472116
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 3797.64 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032660.002347797 2016-12-06 21:57:40  21:57:39 up 34 days,  3:11,  5 users,  load average: 0.40, 0.13, 0.08
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:40 7f9ef8450700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85073 srv_idle
+srv_master_thread log flush and writes: 91060
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2409
+OS WAIT ARRAY INFO: signal count 2376
+Mutex spin waits 62381, rounds 80907, OS waits 1502
+RW-shared spins 601, rounds 18120, OS waits 604
+RW-excl spins 24, rounds 9101, OS waits 300
+Spin rounds per wait: 1.30 mutex, 30.15 RW-shared, 379.21 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2872680
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6700, OS thread handle 0x7f9ef8450700, query id 2551897 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2872677, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2551894 192.168.1.5 root cleaning up
+---TRANSACTION 2872675, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2551893 192.168.1.5 root cleaning up
+---TRANSACTION 2872679, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2551896 192.168.1.5 root cleaning up
+---TRANSACTION 2872676, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2551890 192.168.1.5 root cleaning up
+---TRANSACTION 2872678, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2551892 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157968 OS file writes, 1143483 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+3543.09 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339461172
+Log flushed up to   339461106
+Pages flushed up to 339461046
+Last checkpoint at  339461046
+0 pending log writes, 0 pending chkp writes
+1138504 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16912
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1490238
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 3623.68 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032665.001506690 2016-12-06 21:57:45  21:57:44 up 34 days,  3:11,  5 users,  load average: 0.60, 0.18, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:45 7f9efa65f700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85078 srv_idle
+srv_master_thread log flush and writes: 91065
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2414
+OS WAIT ARRAY INFO: signal count 2381
+Mutex spin waits 66555, rounds 83253, OS waits 1502
+RW-shared spins 606, rounds 18270, OS waits 609
+RW-excl spins 24, rounds 9101, OS waits 300
+Spin rounds per wait: 1.25 mutex, 30.15 RW-shared, 379.21 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2893575
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6705, OS thread handle 0x7f9efa65f700, query id 2572806 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2893569, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2572794 192.168.1.5 root cleaning up
+---TRANSACTION 2893574, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2572801 192.168.1.5 root cleaning up
+---TRANSACTION 2893570, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2572795 192.168.1.5 root cleaning up
+---TRANSACTION 2893568, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2572793 192.168.1.5 root cleaning up
+---TRANSACTION 2893573, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2572800 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1157993 OS file writes, 1143508 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4104.38 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339462008
+Log flushed up to   339461958
+Pages flushed up to 339461908
+Last checkpoint at  339461908
+0 pending log writes, 0 pending chkp writes
+1138519 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16917
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1511133
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4178.16 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032670.001390957 2016-12-06 21:57:50  21:57:49 up 34 days,  3:11,  5 users,  load average: 0.56, 0.18, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:50 7f9efa65f700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85083 srv_idle
+srv_master_thread log flush and writes: 91070
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2424
+OS WAIT ARRAY INFO: signal count 2388
+Mutex spin waits 70829, rounds 85850, OS waits 1506
+RW-shared spins 611, rounds 18420, OS waits 614
+RW-excl spins 24, rounds 9131, OS waits 301
+Spin rounds per wait: 1.21 mutex, 30.15 RW-shared, 380.46 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2914466
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6708, OS thread handle 0x7f9efa65f700, query id 2593717 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2914457, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2593703 192.168.1.5 root cleaning up
+---TRANSACTION 2914465, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2593716 192.168.1.5 root cleaning up
+---TRANSACTION 2914455, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2593701 192.168.1.5 root cleaning up
+---TRANSACTION 2914459, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2593704 192.168.1.5 root cleaning up
+---TRANSACTION 2914464, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2593712 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158018 OS file writes, 1143533 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4101.18 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339462850
+Log flushed up to   339462810
+Pages flushed up to 339462770
+Last checkpoint at  339462770
+0 pending log writes, 0 pending chkp writes
+1138534 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16922
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1532024
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4177.36 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032675.001122233 2016-12-06 21:57:55  21:57:54 up 34 days,  3:11,  5 users,  load average: 0.51, 0.17, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:55 7f9efa308700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85088 srv_idle
+srv_master_thread log flush and writes: 91075
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2434
+OS WAIT ARRAY INFO: signal count 2395
+Mutex spin waits 74917, rounds 88288, OS waits 1510
+RW-shared spins 616, rounds 18570, OS waits 619
+RW-excl spins 24, rounds 9161, OS waits 302
+Spin rounds per wait: 1.18 mutex, 30.15 RW-shared, 381.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2935209
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6711, OS thread handle 0x7f9efa308700, query id 2614467 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2935203, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2614460 192.168.1.5 root cleaning up
+---TRANSACTION 2935208, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2614465 192.168.1.5 root cleaning up
+---TRANSACTION 2935205, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2614463 192.168.1.5 root cleaning up
+---TRANSACTION 2935204, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2614461 192.168.1.5 root cleaning up
+---TRANSACTION 2935207, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2614464 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158043 OS file writes, 1143558 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4073.79 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339463692
+Log flushed up to   339463646
+Pages flushed up to 339463596
+Last checkpoint at  339463596
+0 pending log writes, 0 pending chkp writes
+1138549 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16927
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1552767
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4147.77 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032680.001251041 2016-12-06 21:58:00  21:57:59 up 34 days,  3:11,  5 users,  load average: 0.47, 0.17, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:57:59 7f9ef8554700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 4 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85093 srv_idle
+srv_master_thread log flush and writes: 91080
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2449
+OS WAIT ARRAY INFO: signal count 2404
+Mutex spin waits 78734, rounds 90583, OS waits 1518
+RW-shared spins 621, rounds 18720, OS waits 624
+RW-excl spins 24, rounds 9221, OS waits 304
+Spin rounds per wait: 1.15 mutex, 30.14 RW-shared, 384.21 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2956130
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6713, OS thread handle 0x7f9ef8554700, query id 2635394 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2956128, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2635391 192.168.1.5 root cleaning up
+---TRANSACTION 2956126, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2635389 192.168.1.5 root cleaning up
+---TRANSACTION 2956122, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2635385 192.168.1.5 root cleaning up
+---TRANSACTION 2956127, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2635390 192.168.1.5 root cleaning up
+---TRANSACTION 2956129, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2635392 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158068 OS file writes, 1143583 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 6.25 writes/s, 6.25 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+5142.21 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339464528
+Log flushed up to   339464508
+Pages flushed up to 339464458
+Last checkpoint at  339464458
+0 pending log writes, 0 pending chkp writes
+1138564 log i/o's done, 3.75 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16932
+0.00 reads/s, 0.00 creates/s, 1.25 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1573688
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 5228.94 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032685.001723893 2016-12-06 21:58:05  21:58:04 up 34 days,  3:11,  5 users,  load average: 0.43, 0.17, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:05 7f9efa308700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 6 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85098 srv_idle
+srv_master_thread log flush and writes: 91085
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2464
+OS WAIT ARRAY INFO: signal count 2413
+Mutex spin waits 82676, rounds 92963, OS waits 1526
+RW-shared spins 626, rounds 18870, OS waits 629
+RW-excl spins 24, rounds 9281, OS waits 306
+Spin rounds per wait: 1.12 mutex, 30.14 RW-shared, 386.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2976859
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6717, OS thread handle 0x7f9efa308700, query id 2656133 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2976855, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2656126 192.168.1.5 root cleaning up
+---TRANSACTION 2976858, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2656130 192.168.1.5 root cleaning up
+---TRANSACTION 2976856, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2656128 192.168.1.5 root cleaning up
+---TRANSACTION 2976854, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2656127 192.168.1.5 root cleaning up
+---TRANSACTION 2976857, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2656129 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158093 OS file writes, 1143608 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 4.17 writes/s, 4.17 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+3390.93 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339465370
+Log flushed up to   339465360
+Pages flushed up to 339465310
+Last checkpoint at  339465310
+0 pending log writes, 0 pending chkp writes
+1138579 log i/o's done, 2.50 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16937
+0.00 reads/s, 0.00 creates/s, 0.83 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[50]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1594417
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 3454.26 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032690.001127451 2016-12-06 21:58:10  21:58:09 up 34 days,  3:12,  5 users,  load average: 0.40, 0.16, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:10 7f9ef8554700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85102 srv_idle
+srv_master_thread log flush and writes: 91089
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2468
+OS WAIT ARRAY INFO: signal count 2417
+Mutex spin waits 86876, rounds 95388, OS waits 1526
+RW-shared spins 630, rounds 18990, OS waits 633
+RW-excl spins 24, rounds 9281, OS waits 306
+Spin rounds per wait: 1.10 mutex, 30.14 RW-shared, 386.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 2997948
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6720, OS thread handle 0x7f9ef8554700, query id 2677233 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2997938, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2677219 192.168.1.5 root cleaning up
+---TRANSACTION 2997946, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2677227 192.168.1.5 root cleaning up
+---TRANSACTION 2997944, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2677225 192.168.1.5 root cleaning up
+---TRANSACTION 2997947, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2677228 192.168.1.5 root cleaning up
+---TRANSACTION 2997945, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2677226 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158116 OS file writes, 1143631 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 4.60 writes/s, 4.60 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4135.97 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339466206
+Log flushed up to   339466156
+Pages flushed up to 339466156
+Last checkpoint at  339465996
+0 pending log writes, 0 pending chkp writes
+1138592 log i/o's done, 2.60 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16942
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[50]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1615506
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4216.96 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032695.002165990 2016-12-06 21:58:15  21:58:14 up 34 days,  3:12,  5 users,  load average: 0.37, 0.16, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:15 7f9efa308700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85107 srv_idle
+srv_master_thread log flush and writes: 91094
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2478
+OS WAIT ARRAY INFO: signal count 2424
+Mutex spin waits 91191, rounds 97922, OS waits 1530
+RW-shared spins 635, rounds 19140, OS waits 638
+RW-excl spins 24, rounds 9311, OS waits 307
+Spin rounds per wait: 1.07 mutex, 30.14 RW-shared, 387.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3017229
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6722, OS thread handle 0x7f9efa308700, query id 2696519 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 3017227, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2696518 192.168.1.5 root cleaning up
+---TRANSACTION 3017224, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2696514 192.168.1.5 root cleaning up
+---TRANSACTION 3017226, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2696516 192.168.1.5 root cleaning up
+---TRANSACTION 3017222, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2696512 192.168.1.5 root cleaning up
+---TRANSACTION 3017228, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2696520 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158141 OS file writes, 1143656 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+3775.64 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339466998
+Log flushed up to   339466978
+Pages flushed up to 339466978
+Last checkpoint at  339466848
+0 pending log writes, 0 pending chkp writes
+1138607 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16947
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[50]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1634788
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 3855.63 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032700.001472331 2016-12-06 21:58:20  21:58:19 up 34 days,  3:12,  5 users,  load average: 0.34, 0.16, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:20 7f9efa308700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85112 srv_idle
+srv_master_thread log flush and writes: 91099
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2488
+OS WAIT ARRAY INFO: signal count 2431
+Mutex spin waits 95544, rounds 100479, OS waits 1534
+RW-shared spins 640, rounds 19290, OS waits 643
+RW-excl spins 24, rounds 9341, OS waits 308
+Spin rounds per wait: 1.05 mutex, 30.14 RW-shared, 389.21 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3037386
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6726, OS thread handle 0x7f9efa308700, query id 2716686 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 3037384, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2716683 192.168.1.5 root cleaning up
+---TRANSACTION 3037311, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2716610 192.168.1.5 root cleaning up
+---TRANSACTION 3037383, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2716682 192.168.1.5 root cleaning up
+---TRANSACTION 3037382, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2716681 192.168.1.5 root cleaning up
+---TRANSACTION 3037385, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2716684 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158166 OS file writes, 1143681 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+3943.41 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339467810
+Log flushed up to   339467790
+Pages flushed up to 339467790
+Last checkpoint at  339467614
+0 pending log writes, 0 pending chkp writes
+1138622 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16952
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[50]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1654944
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4030.39 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032705.002495444 2016-12-06 21:58:25  21:58:24 up 34 days,  3:12,  5 users,  load average: 0.31, 0.16, 0.10
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:25 7f9ef8554700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85117 srv_idle
+srv_master_thread log flush and writes: 91104
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2503
+OS WAIT ARRAY INFO: signal count 2440
+Mutex spin waits 99671, rounds 102995, OS waits 1542
+RW-shared spins 645, rounds 19440, OS waits 648
+RW-excl spins 24, rounds 9401, OS waits 310
+Spin rounds per wait: 1.03 mutex, 30.14 RW-shared, 391.71 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3058281
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6730, OS thread handle 0x7f9ef8554700, query id 2737596 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 3058277, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2737591 192.168.1.5 root cleaning up
+---TRANSACTION 3058278, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2737587 192.168.1.5 root cleaning up
+---TRANSACTION 3058280, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2737594 192.168.1.5 root cleaning up
+---TRANSACTION 3058279, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2737593 192.168.1.5 root cleaning up
+---TRANSACTION 3058276, not started
+MySQL thread id 6654, OS thread handle 0x7f9efa55b700, query id 2737590 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158191 OS file writes, 1143706 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+4096.78 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339468646
+Log flushed up to   339468626
+Pages flushed up to 339468626
+Last checkpoint at  339468456
+0 pending log writes, 0 pending chkp writes
+1138637 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16957
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[50]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1675839
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 4178.16 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032710.002371301 2016-12-06 21:58:30  21:58:29 up 34 days,  3:12,  5 users,  load average: 0.29, 0.15, 0.09
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:30 7f9efa65f700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85122 srv_idle
+srv_master_thread log flush and writes: 91109
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2512
+OS WAIT ARRAY INFO: signal count 2447
+Mutex spin waits 105213, rounds 106238, OS waits 1545
+RW-shared spins 650, rounds 19590, OS waits 653
+RW-excl spins 24, rounds 9431, OS waits 311
+Spin rounds per wait: 1.01 mutex, 30.14 RW-shared, 392.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3078270
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6732, OS thread handle 0x7f9efa65f700, query id 2757592 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 3078266, not started
+MySQL thread id 6653, OS thread handle 0x7f9ef84d2700, query id 2757584 192.168.1.5 root cleaning up
+---TRANSACTION 3078269, not started
+MySQL thread id 6651, OS thread handle 0x7f9ef8491700, query id 2757587 192.168.1.5 root cleaning up
+---TRANSACTION 3078268, not started
+MySQL thread id 6650, OS thread handle 0x7f9ef8595700, query id 2757586 192.168.1.5 root cleaning up
+---TRANSACTION 3078267, not started
+MySQL thread id 6652, OS thread handle 0x7f9efa2c7700, query id 2757585 192.168.1.5 root cleaning up
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158216 OS file writes, 1143731 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 5.00 writes/s, 5.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+3904.62 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339469458
+Log flushed up to   339469448
+Pages flushed up to 339469448
+Last checkpoint at  339469328
+0 pending log writes, 0 pending chkp writes
+1138652 log i/o's done, 3.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  1
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16962
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[50]:cur[1], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1695828
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 3997.00 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032715.002478618 2016-12-06 21:58:35  21:58:34 up 34 days,  3:12,  6 users,  load average: 0.26, 0.15, 0.09
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:35 7f9ef8554700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85127 srv_idle
+srv_master_thread log flush and writes: 91114
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2516
+OS WAIT ARRAY INFO: signal count 2451
+Mutex spin waits 108488, rounds 108127, OS waits 1545
+RW-shared spins 654, rounds 19710, OS waits 657
+RW-excl spins 24, rounds 9431, OS waits 311
+Spin rounds per wait: 1.00 mutex, 30.14 RW-shared, 392.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3083577
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6736, OS thread handle 0x7f9ef8554700, query id 2762923 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158231 OS file writes, 1143746 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 3.00 writes/s, 3.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+997.20 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339469668
+Log flushed up to   339469668
+Pages flushed up to 339469668
+Last checkpoint at  339469668
+0 pending log writes, 0 pending chkp writes
+1138661 log i/o's done, 1.80 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  0
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16965
+0.00 reads/s, 0.00 creates/s, 0.60 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[49]:cur[0], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1701135
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 1061.19 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032720.005883668 2016-12-06 21:58:40  21:58:40 up 34 days,  3:12,  6 users,  load average: 0.24, 0.15, 0.09
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:40 7f9ef85d6700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85132 srv_idle
+srv_master_thread log flush and writes: 91119
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2516
+OS WAIT ARRAY INFO: signal count 2451
+Mutex spin waits 108488, rounds 108127, OS waits 1545
+RW-shared spins 654, rounds 19710, OS waits 657
+RW-excl spins 24, rounds 9431, OS waits 311
+Spin rounds per wait: 1.00 mutex, 30.14 RW-shared, 392.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3083577
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6740, OS thread handle 0x7f9ef85d6700, query id 2762932 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158231 OS file writes, 1143746 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 0.00 writes/s, 0.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+0.00 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339469668
+Log flushed up to   339469668
+Pages flushed up to 339469668
+Last checkpoint at  339469668
+0 pending log writes, 0 pending chkp writes
+1138661 log i/o's done, 0.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  0
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16965
+0.00 reads/s, 0.00 creates/s, 0.00 writes/s
+No buffer pool page gets since the last printout
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[44]:cur[0], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1701135
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 0.00 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032725.006125554 2016-12-06 21:58:45  21:58:45 up 34 days,  3:12,  6 users,  load average: 0.22, 0.15, 0.09
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:45 7f9efa308700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85137 srv_idle
+srv_master_thread log flush and writes: 91124
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2516
+OS WAIT ARRAY INFO: signal count 2451
+Mutex spin waits 108488, rounds 108127, OS waits 1545
+RW-shared spins 654, rounds 19710, OS waits 657
+RW-excl spins 24, rounds 9431, OS waits 311
+Spin rounds per wait: 1.00 mutex, 30.14 RW-shared, 392.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3083577
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6744, OS thread handle 0x7f9efa308700, query id 2762944 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158231 OS file writes, 1143746 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 0.00 writes/s, 0.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+0.00 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339469668
+Log flushed up to   339469668
+Pages flushed up to 339469668
+Last checkpoint at  339469668
+0 pending log writes, 0 pending chkp writes
+1138661 log i/o's done, 0.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  0
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16965
+0.00 reads/s, 0.00 creates/s, 0.00 writes/s
+No buffer pool page gets since the last printout
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[39]:cur[0], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1701135
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 0.00 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032730.004203079 2016-12-06 21:58:50  21:58:50 up 34 days,  3:12,  6 users,  load average: 0.20, 0.14, 0.09
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:50 7f9efa2c7700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85142 srv_idle
+srv_master_thread log flush and writes: 91129
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2516
+OS WAIT ARRAY INFO: signal count 2451
+Mutex spin waits 108489, rounds 108157, OS waits 1545
+RW-shared spins 654, rounds 19710, OS waits 657
+RW-excl spins 24, rounds 9431, OS waits 311
+Spin rounds per wait: 1.00 mutex, 30.14 RW-shared, 392.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3083577
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6748, OS thread handle 0x7f9efa2c7700, query id 2762968 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158231 OS file writes, 1143746 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 0.00 writes/s, 0.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+0.00 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339469668
+Log flushed up to   339469668
+Pages flushed up to 339469668
+Last checkpoint at  339469668
+0 pending log writes, 0 pending chkp writes
+1138661 log i/o's done, 0.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  0
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16965
+0.00 reads/s, 0.00 creates/s, 0.00 writes/s
+No buffer pool page gets since the last printout
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[34]:cur[0], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1701135
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 0.00 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+
+TS 1481032735.003558284 2016-12-06 21:58:55  21:58:55 up 34 days,  3:12,  6 users,  load average: 0.19, 0.14, 0.09
+*************************** 1. row ***************************
+  Type: InnoDB
+  Name: 
+Status: 
+=====================================
+2016-12-06 21:58:55 7f9ef8491700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 5 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 6000 srv_active, 0 srv_shutdown, 85147 srv_idle
+srv_master_thread log flush and writes: 91134
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 2517
+OS WAIT ARRAY INFO: signal count 2452
+Mutex spin waits 108490, rounds 108187, OS waits 1546
+RW-shared spins 654, rounds 19710, OS waits 657
+RW-excl spins 24, rounds 9431, OS waits 311
+Spin rounds per wait: 1.00 mutex, 30.14 RW-shared, 392.96 RW-excl
+------------
+TRANSACTIONS
+------------
+Trx id counter 3083577
+Purge done for trx's n:o < 2533512 undo n:o < 0 state: running but idle
+History list length 3134
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 0, not started
+MySQL thread id 6752, OS thread handle 0x7f9ef8491700, query id 2762979 localhost root init
+SHOW ENGINE INNODB STATUS
+---TRANSACTION 2433511, not started
+MySQL thread id 4797, OS thread handle 0x7f9ef8513700, query id 2158056 localhost root cleaning up
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: 0 [0, 0, 0, 0] , aio writes: 0 [0, 0, 0, 0] ,
+ ibuf aio reads: 0, log i/o's: 0, sync i/o's: 0
+Pending flushes (fsync) log: 0; buffer pool: 0
+2790 OS file reads, 1158231 OS file writes, 1143746 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 0.00 writes/s, 0.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 0 merges
+merged operations:
+ insert 0, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 276707, node heap has 6 buffer(s)
+0.00 hash searches/s, 0.00 non-hash searches/s
+---
+LOG
+---
+Log sequence number 339469668
+Log flushed up to   339469668
+Pages flushed up to 339469668
+Last checkpoint at  339469668
+0 pending log writes, 0 pending chkp writes
+1138661 log i/o's done, 0.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total memory allocated 137363456; in additional pool allocated 0
+Dictionary memory allocated 227028
+Buffer pool size   8192
+Free buffers       5354
+Database pages     2832
+Old database pages 1025
+Modified db pages  0
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 9455, not young 2917
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2752, created 126, written 16965
+0.00 reads/s, 0.00 creates/s, 0.00 writes/s
+No buffer pool page gets since the last printout
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2832, unzip_LRU len: 0
+I/O sum[29]:cur[0], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Main thread process no. 24326, id 140320775816960, state: sleeping
+Number of rows inserted 16134, updated 1121607, deleted 13, read 1701135
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 0.00 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+

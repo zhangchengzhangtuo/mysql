@@ -1,0 +1,3 @@
+mysqlbinlog --base64-output=decode-rows -d apin_proc -v mysql-bin.001156 >log
+通过该条语句可以查看binlog日志中的内容
+可以查看任何偷鸡摸狗的行为

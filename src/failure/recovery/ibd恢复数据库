@@ -1,0 +1,5 @@
+1.首先在本地MySQL建立一个测试数据库，然后从生产环境导出该表的sql结构，并在该数据库中创建该表。
+2.使用ALTER TABLE table_name DISCARD TABLESPACE;删除新的.ibd文件
+3.复制备份的.ibd文件到新建立的表目录下
+4.ALTER TABLE table_Name IMPORT TABLESPACE;恢复数据
+注：如果有哪一步失败就重启一下数据库即可。

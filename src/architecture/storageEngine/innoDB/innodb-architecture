@@ -1,0 +1,83 @@
+innodb引擎架构就是由一系列的后台线程、内存buffer以及一系列文件组成
+
+后台线程主要有7个：
+1）4个IO线程，分为insert buffer线程、读线程、写线程、redo日志线程。
+2）1个master线程
+3）1个锁监控线程
+4）1个错误监控线程
+
+master线程
+核心后台线程，主要负责将缓冲池的数据刷新到磁盘。例如脏页的刷新，插入缓冲的合并，undo页的回收等。分为主循环（loop）、后台循环（background loop）、刷新循环（flush loop)、暂停循环（suspend loop）。
+主循环：
+a.每一秒的操作
+日志缓冲刷新到磁盘，即使该事物还没有提交。该操作总是会发生，这个就是为了再大的事务，提交时间都很短。（总是）
+当IO压力很小时（1s内发生的IO次数小于5% innodb_io_capacity）合并5% innodb_io_capacity 的插入缓冲。（可能）
+当脏页比例大于innodb_max_dirty_pages_cnt, 刷新innodb_io_capacity个缓冲池中的脏页到磁盘。否则如果 innodb_adaptive_flush 开启，则根据buf_flush_get_desired_flush_rate 来选择合适刷新脏页数量进行刷新。
+如果没有当前用户活动，切换至background loop（可能）
+
+b.每10秒一次的操作：
+如果过去10S 内IO操作小于 innodb_io_capacity， 刷新 innodb_io_capacity 个缓冲池中的脏页到磁盘。（总是）
+合并5% innodb_io_capacity 个插入缓冲。（总是）
+将日志缓冲刷新到磁盘。（总是）
+产生一个检查点。（总是）
+删除无用的undo页（总是）
+如果缓冲池中脏页比例超过70%，再次刷新 innodb_io_capacity 个脏页到磁盘。否则刷新10% innodb_io_capacity 个脏页。（总是）
+
+后台循环：
+删除无用的undo页（总是）
+合并innodb_io_capacity个插入缓冲。（总是）
+跳回到主循环（总是）
+不断刷新100个页，直到符合条件跳转到flush loop（可能）
+
+刷新循环：
+刷新innodb_io_capacity个脏页
+如果flush loop也没有什么事情可以做的话，切换到suspend loop
+
+暂停循环：
+将master线程挂起
+
+注：另外两个线程Purge Thread和PageCleaner Thread用于辅助master线程工作；
+Purge Thread：事务提交后，该事物相关的undolog可能不再需要。Purge Thread就是用来回收不需要的undo页
+
+
+内存buffer
+内存buffer主要由以下几个部分组成：
+1）缓冲池（主要包括数据页、索引页、uodo页、插入缓冲、自适应哈希索引、锁信息、数据字典信息）
+2）重做日志缓冲
+3）额外内存池
+
+缓冲池的工作方式总是将数据库文件按页（每页16K）读取到缓冲池，然后用最近最少使用（LRU）算法来保留在缓冲池中
+重做日志缓冲将重做日志信息先放入这个缓冲区，然后按一定频率（默认为1s）将其刷新至重做日志文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
