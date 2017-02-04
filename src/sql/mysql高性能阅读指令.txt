@@ -1,0 +1,73 @@
+1.show variables like 'autocommit';
+	
+2.set session transaction isolation level read committed;
+
+3.show tables status like '表名';
+
+4.show global status;
+一堆计数器，可以做性能测试；
+
+5.show engine innodb status;
+一堆计数器，可以做性能测试
+
+6.show full processlist;
+SHOW PROCESSLIST显示哪些线程正在运行,如果您不使用FULL关键词，则只显示每个查询的前100个字符。
+
+7.做服务器基准测试可以让自己大致了解一下服务器的性能。然后在做自己的测试时候大致有个数。
+	
+//8,9主要做性能剖析
+8.show profiles;
+
+9.show profile for query 1;
+或者select state,sum(duration) as total,count(*) as calls,sum(duration)/count(*) as "r/call" from information_schema.profiling where query_id=1 group by state order by total desc;
+
+//10,11主要用于查看是否是服务器的性能问题还是单个语句的问题：(跟show global status之间的作用差不多)
+10.mysqladmin ext -i1 | awk '/Queries/{q=$4-qp;qp=$4} /Threads_connected/{tc=$4} /Threads_running/{printf "%5d %5d %5d\n",q,tc,$4}'
+	
+11.mysql -uroot -papinji -e 'show processlist\G' | grep State: | sort | uniq -c | sort -rn
+
+12.pt-stalk设置阈值，一旦MySQL运行达到这个阈值就会生成大量的测试数据用于调试；
+
+13.慢日志设置：
+set global log_queries_not_using_indexes = true;
+set global slow_query_log_file="e:\mysql_slow_query.log";
+set global long_query_time=0.1;
+set global slow_query_log=on;
+
+pt-query-digest ubuntu-slow.log
+mysqldumpslow.pl -s t -t 10 ubuntu-slow.log
+
+14.show engine innodb status | grep 'Log sequence number' 查看当前日志顺序号
+show engine innodb status | grep 'Last checkpoint at' 查看检查点
+如果检查点比最新的日志顺序号小不了多少，说明没有进行多少更新和插入操作，那么需要刷洗的页面也就很少
+
+15.索引的经验顺序法则：select count(distinct name)/count(*) as name_selectivity,count(distinct age)/count(*) as age_selectivity,count(*) from student;
+但是有的时候会出现某个具体的值过多的情况，这个时候可以根据慢日志中的记录，找到最差的查询，然后根据具体的进行优化：
+select sum(age='16'),sum(name='xiaowang'),count(*),sum(age='16')/count(*),sum(name='xiaowang')/count(*) from student;
+
+
+16.show status like 'last_query_cost';查看上一条查询语句的查询成本，结果显示：
+variable_name     value
+last_query_cost   1040.599000
+表示MySQL优化器认为大概需要做1040个数据页的随机查找才能完成上一个语句的查询。
+
+17.straight_join关键字让优化器按照你认为的最优的顺序执行。
+
+18.using where 表示在MySQL server 层使用了where条件过滤。
+
+19.数据库操作主要分为以下几个部分：
+对于一张表来说：
+1）多个用户读（select）
+2）多个用户写（delete、update、insert）
+对于某行数据来说：
+1）多个用户读（select）
+2）多个用户写（update、delete、insert）
+3）单个用户读（select）
+4）单个用户写（update、delete、insert）
+所以这个地方的并发问题主要是在多个用户写这个地方：所以更新的时候采用数据库自己去控制，而不是
+
+
+
+
+
+

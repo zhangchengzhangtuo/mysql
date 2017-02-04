@@ -1,0 +1,14 @@
+查看日活
+select count(*),tmp.date from (select distinct user_id,left(access_time,10) as date from apin_access_log) as tmp group by tmp.date
+
+create trigger update_current_ticket_num  before update on apin_merchant_flight_info for each ROW
+BEGIN
+DECLARE msg VARCHAR(20);
+if new.current_ticket_num<0 THEN
+	set msg='not enough tickets';
+	SIGNAL SQLSTATE '42821' set message_text=msg;
+end if;
+end
+
+数据库如果报10038，原因就是MySQL配置文件中的bind address为127.0.0.1,将其改为0.0.0.0即可
+数据库如果报1130，原因就是update user set host = '%' where user ='root' and host="localhost";
